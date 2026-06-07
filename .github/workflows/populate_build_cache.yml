@@ -14,7 +14,7 @@ on:
   # Run once per day to ensure the cache is populated even if we haven't
   # modified Cargo.lock or Cargo.toml in a while.
   schedule:
-    - cron: "0 8 * * 1-5" # Run every weekday at 3am EST.
+    # - cron: "0 8 * * 1-5" # Run every weekday at 3am EST.
   workflow_dispatch:
 
 name: Populate Build Cache
