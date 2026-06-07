@@ -8,7 +8,7 @@ name: Cut New Releases
 on:
   schedule:
     # Run this job every morning at 3am EST.
-    - cron: "0 8 * * *"
+    # - cron: "0 8 * * *"
 
   workflow_dispatch:
     inputs:
